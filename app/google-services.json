@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "751794870803",
+    "project_id": "metube-ea441",
+    "storage_bucket": "metube-ea441.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751794870803:android:d48ce6414eb43f83d03de6",
+        "android_client_info": {
+          "package_name": "com.example.metube"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751794870803-0kb4pmcvoommijo54spi0gb56s998qb4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFwRCTPkq9gvnc9zvYBMsnMs0arlaUMQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751794870803-0kb4pmcvoommijo54spi0gb56s998qb4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
