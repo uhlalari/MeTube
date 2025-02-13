@@ -1,0 +1,20 @@
+<resources>
+    <!-- Nome do aplicativo -->
+    <string name="app_name">MeTube</string>
+
+    <!-- Mensagens de boas-vindas -->
+    <string name="welcome_message">Bem-vindo ao MeTube!</string>
+    <string name="or_continue_with">ou continue com</string>
+
+    <!-- Botão de login -->
+    <string name="login_with_email">Entrar com Google</string>
+
+    <!-- Mensagens gerais -->
+    <string name="loading">Carregando...</string>
+    <string name="error_login">Erro ao fazer login</string>
+    <string name="success_login">Login bem-sucedido!</string>
+    <string name="google_terms">https://www.youtube.com/t/terms</string>
+
+    <!-- Chave OAuth para o Google -->
+    <string name="default_web_client_id">769276160802-cfajf6nb60aa7dg2t97u02q3qip0552k.apps.googleusercontent.com</string>
+</resources>

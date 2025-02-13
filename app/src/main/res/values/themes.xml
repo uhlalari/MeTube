@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema principal da aplicação -->
+    <style name="Theme.MeTube" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#0b1014</item>
+        <item name="colorPrimaryDark">#0b1014</item>
+        <item name="colorAccent">#0b1014</item>
+    </style>
+</resources>

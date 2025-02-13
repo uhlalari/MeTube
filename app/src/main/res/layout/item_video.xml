@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imgThumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/background"
+        android:clipToOutline="true"
+        android:elevation="4dp"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingEnd="8dp"
+            android:text="Título do Vídeo"
+            android:textColor="@color/cinza_claro"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/btnFavorite"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="12dp"
+            android:contentDescription="Favoritar"
+            android:onClick="toggleFavorite"
+            android:padding="4dp"
+            android:src="@drawable/ic_favorite" />
+
+        <ImageView
+            android:id="@+id/btnAddToList"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:contentDescription="Adicionar à Lista"
+            android:onClick="togglePlaylist"
+            android:padding="4dp"
+            android:src="@drawable/ic_lists" />
+    </LinearLayout>
+
+</LinearLayout>

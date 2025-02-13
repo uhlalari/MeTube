@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#0b1014</color>
+    <color name="cinza">#23282c</color>
+    <color name="cinza_claro">#707579</color>
+    <color name="vermelho">#c62222</color>
+    <color name="branco">#f4f9fb</color>
+</resources>
